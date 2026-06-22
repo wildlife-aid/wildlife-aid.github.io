@@ -46,10 +46,11 @@
         <aside class="donation-panel" id="donate" aria-label="捐助面板">
           <p class="panel-label">7 天目标</p>
           <strong>$100,000</strong>
-          <div class="progress" aria-label="已筹集 0%">
+          <div class="progress" id="donation-progress" aria-label="已筹集 0%">
             <span style="width: 0%"></span>
           </div>
-          <p class="raised">已公开记录 $0 · 还差 $100,000</p>
+          <p class="raised" id="donation-total">已公开记录 0 ETH（约 $0）</p>
+          <p class="monitor-status" id="monitor-status">正在读取链上公开记录...</p>
           <div class="amounts" role="group" aria-label="选择捐助金额">
             <button type="button" data-amount="0.01">0.01 ETH</button>
             <button type="button" data-amount="0.05" class="active">0.05 ETH</button>

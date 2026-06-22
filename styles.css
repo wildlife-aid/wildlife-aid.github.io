@@ -213,6 +213,13 @@ h1 {
   color: var(--muted);
 }
 
+.monitor-status {
+  margin: -2px 0 16px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
 .panel-label {
   margin-bottom: 8px;
   font-weight: 800;
